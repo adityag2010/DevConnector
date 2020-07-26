@@ -1,3 +1,13 @@
 {
-  "mongoURI": "mongodb+srv://devConnectorUser:devConnectorUser@devconnector-fpees.mongodb.net/test?retryWrites=true&w=majority"
+  "mongo": {
+    "dbName": "devConnectorDB",
+    "dbUser": "devConnectorUser",
+    "dbPassword": "devConnectorUser",
+    "host": "devconnector-fpees.mongodb.net",
+    "uri": "mongodb+srv://devConnectorUser:devConnectorUser@devconnector-fpees.mongodb.net/devConnectorDB?retryWrites=true&w=majority"
+  },
+  "jwt": {
+    "privateKey": "-----BEGIN RSA PRIVATE KEY-----MIICWwIBAAKBgQCDMyjNhGNErl8A4+VsmcrQPJ91rhU+q+rMJ5AH3l/Tnj9B5UbU8fOqxEP6d+TZyi0QUneq1eJRytHTwPlBO96wv38ostufqNqDrxwqQUjGbpQsnwfaK2KOUjoIBAqAsunqSvnBPa5c2Z+CiaB+6WpBKIWeIyc196O0k4l+6MBb0wIDAQABAoGARTr7rubK0vUIIJog99t3T8aNhjVj9HwXG79MmzpWan44dvcbF0bNAzEphcM6OUob2V8K0lSmZe6WJhzP6gJDkVHGCsg03ss10CUCdoE2a71ZnvyAgOMl11jzbI4K1GTeUW6SfjGmwGl5gH8Ji8RAtP+8Om9JKkAySXu8spbF7EECQQDO2qN6UFXiD2RIdP+HOQmBNBHrMtSVWrpalpQN6m6e2CNKwklcxuAluYpP1rUzEtqiNV4DYD0Dw1lwMFUA6O0xAkEAol8MpNkc2zw2BH0fiUzr76FsVqaYvUoBIfnnwiIgFibX24tVy6L/Neezu2TxRhVb80lwUbvMPr5GwDmRCzzIQwJAG2MdQ+OBC3YoO+OptVia5o1jVfWb6c5iX/4RyingzY0mVw6UMgFuye/f3SQ7R3DWm6VfNik2ytnBbLYpev5b8QJAC0rtCDIJbb38S8ef/96XsizZ6hTgHpodBg3pbnkNHj1JWf2Q0/7cHRWmTGwy05r8sCj1ZNnY1KxLI2ddjRiHHQJAODZzroFJ1DcoJYmCEtBAFma1jFMQ3yNN+0ltTeyq6He6+amGMrdaGv1oPjKqIIel1NMz8vygJ1J4v1JepFtJQw==-----END RSA PRIVATE KEY-----",
+    "publicKey": "-----BEGIN PUBLIC KEY-----MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCDMyjNhGNErl8A4+VsmcrQPJ91rhU+q+rMJ5AH3l/Tnj9B5UbU8fOqxEP6d+TZyi0QUneq1eJRytHTwPlBO96wv38ostufqNqDrxwqQUjGbpQsnwfaK2KOUjoIBAqAsunqSvnBPa5c2Z+CiaB+6WpBKIWeIyc196O0k4l+6MBb0wIDAQAB-----END PUBLIC KEY-----"
+  }
 }
